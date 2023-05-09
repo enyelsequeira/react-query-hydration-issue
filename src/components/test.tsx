@@ -1,5 +1,4 @@
 import { useQuery } from "@tanstack/react-query";
-import { useEffect, useState } from "react";
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const HomeTable = () => {
